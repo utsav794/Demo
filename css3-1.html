@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<style>
+		#borderimg{
+			border: 10px solid transparent;
+			padding: 15px;
+			-webkit-border-event: url("../Photo/DSC_0409.JPG") 50 round;
+			-o-border-image: url("../Photo/DSC_0409.JPG") 20 round;
+			border-image: url("../Photo/DSC_0409.JPG") 50 round;
+		}
+	</style>
+</head>
+
+<body>
+	<p>Specifies an image to be used as a border around the element.</p>
+	<p id="borderimg">Here the middle sections of img are repated to create the border</p>
+	<p>Orignal image</p><img src="../Photo/DSC_0409.JPG" width="200px" height="200px">
+	<p><strong>Note:</strong> IE 10 and earlier versions dont support this</p>
+</body>
+</html>

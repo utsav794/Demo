@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<p><strong>Note:</strong> This example does not work in Firefox.</p>
+
+<svg width="100%" height="300px">
+<g id="R1" transform="translate(250 250)"> 
+  <ellipse rx="100" ry="100" opacity=".3">
+  <animateTransform attributeName="transform" type="rotate" dur="5s" from="0" to="360" repeatCount="indefinite" />
+  <animate attributeName="cx" dur="5s" values="-20; 220; -20" repeatCount="definite" />
+  <animate attributeName="ry" dur="5s" values="10; 100; 10" repeatCount="definite" />
+  </ellipse>
+</g>
+<use xlink:href="#R1" transform="rotate(72 390 150)" />
+<use xlink:href="#R1" transform="rotate(144 390 150)" />
+<use xlink:href="#R1" transform="rotate(216 390 150)" />
+<use xlink:href="#R1" transform="rotate(288 390 150)" />
+</svg>
+
+</body>
+</html>
